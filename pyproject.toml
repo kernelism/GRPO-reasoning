@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "grpo"
+version = "0.1.0"
+description = "Exploratory Jupyter notebooks and minimal project scaffolding."
+authors = ["arjun <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyter = "^1.0"
+numpy = "^1.25"
+pandas = "^2.2"
+matplotlib = "^3.8"
+scipy = "^1.11"
+sympy = "^1.12"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

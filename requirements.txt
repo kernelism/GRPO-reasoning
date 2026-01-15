@@ -1,0 +1,5 @@
+# Add project dependencies here, e.g.
+# jupyter
+# numpy
+# pandas
+# matplotlib
